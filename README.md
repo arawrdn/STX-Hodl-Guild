@@ -7,7 +7,7 @@ Most DAOs are dominated by "Whales" who buy tokens and immediately vote. **HODL 
 
 ## Tech Implementation
 - **Smart Contract**: Written in `Clarity 2.0`. It uses the `block-height` global variable to ensure 100% on-chain transparency.
-- **Wallet Connection**: Powered by **Reown AppKit** (Project ID: `180a7...`).
+- **Wallet Connection**: Powered by **Reown AppKit**
 - **Network**: Stacks Mainnet
 
 ## Getting Started
