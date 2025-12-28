@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STX Hodl Guild - Membership</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background: radial-gradient(circle at top right, #5546FF, #0052FF, #000000); min-height: 100vh; color: white; }
+        .glass { background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.2); }
+    </style>
+</head>
+<body class="flex flex-col items-center justify-center p-6">
+    <div class="glass p-10 rounded-3xl max-w-lg w-full text-center">
+        <div class="mb-6 inline-block p-4 bg-white/10 rounded-full">
+            <img src="https://cryptologos.cc/logos/stacks-stx-logo.png" width="60" alt="STX">
+        </div>
+        
+        <h1 class="text-3xl font-bold mb-2">STX HODL GUILD</h1>
+        <p class="text-blue-200 mb-8">Exclusive Membership for Stacks Believers on Base</p>
+        
+        <div id="auth-section" class="mb-8">
+            <appkit-button></appkit-button>
+        </div>
+
+        <div id="guild-controls" class="hidden">
+            <div class="p-4 mb-6 bg-blue-500/20 rounded-xl border border-blue-400/30">
+                <p class="text-sm">Status: <span id="membership-status" class="font-bold">Not Joined</span></p>
+            </div>
+            
+            <button id="join-btn" class="w-full bg-[#5546FF] hover:bg-[#4435EE] text-white font-bold py-4 rounded-2xl transition-all transform active:scale-95 shadow-xl">
+                JOIN THE GUILD
+            </button>
+        </div>
+        
+        <p id="feedback" class="mt-6 text-sm text-gray-300"></p>
+    </div>
+
+    <script type="module" src="main.js"></script>
+</body>
+</html>
