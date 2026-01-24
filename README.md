@@ -35,6 +35,14 @@ Your digital guild crest (NFT) evolves visually based on your holding status. If
 * Node.js v18+
 * Hiro or Xverse Wallet
 
+## Roadmap
+
+1. Launch core guild membership contract
+2. Integrate loyalty SBT reward system
+3. Implement on-chain guild governance
+4. Add cross-chain verification and bridges
+5. Improve UX and documentation
+
 ## Installation
 
 1.  **Clone the Repository**
